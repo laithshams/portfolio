@@ -64,12 +64,17 @@ hr{
 }
 
 .middle-container {
+  padding: 100px 0;
   margin: 0;
 }
 
 .bottom-container {
   background-color: #66BFBF;
   padding: 50px;
+}
+
+.mountain-img {
+  padding-top: 50px;
 }
 
 .profile-img {
