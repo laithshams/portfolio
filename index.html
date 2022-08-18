@@ -6,7 +6,7 @@
   <title>Laith Shams</title>
   <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/index.css">
   <!-- CSS only -->
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
       <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
           <div class="modal-header">
-            <h2 class="modal-title">Simon game</h5>
+            <h2 class="modal-title">Simon game</h2>
           </div>
           <div class="modal-body">
             <iframe width="100%" height="100%" src="projects/Simon Game/index.html"></iframe>
@@ -38,7 +38,7 @@
       <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
           <div class="modal-header">
-            <h2 class="modal-title">Simon game</h5>
+            <h2 class="modal-title">Simon game</h2>
           </div>
           <div class="modal-body">
             <iframe width="100%" height="100%" src="projects/Drum Kit/index.html"></iframe>
@@ -54,7 +54,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h2 class="modal-title">Catchupp prototype</h5>
+            <h2 class="modal-title">Catchupp prototype</h2>
           </div>
           <div class="modal-body">
             <iframe width="375" height="475" src="https://xd.adobe.com/embed/7cd875fb-b5c2-40e1-8962-b758bde92d1e-298b/?fullscreen&hints=off" frameborder="0" allowfullscreen></iframe>
@@ -80,61 +80,143 @@
     <div class="profile">
       <img class="profile-img" src="images/laithshams.png" alt="profile picture">
       <h2>Hello.</h2>
-      <p class="intro">I'm a fourth-year Computer Science student who is excited about software engineering, I'm always seeking to participate within a team to reach a common goal and to learn as well.</p>
+      <p class="intro">A fourth-year Computer Science student passionate about software engineering and web development, I enjoy working in a team and learning from people with different experiences. In addition, I like to work on challenging projects where I can learn something new or improve my skills, and solving problems creatively while working with new technologies is a relish for me. Though I’m better at back-end development than front-end, I aim to become a full-stack web developer.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>Skills.</h2>
+      <div id="skills-cards" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner m-auto w-75">
+          <div class="carousel-item active">
+            <div class="card-group">
+              <div class="card skill border text-dark">
+                <img src="images/skills/html-5.png" class="card-img-top" alt="HTML skill">
+                <div class="card-body bg-light">
+                  <h3 class="card-title">HTML</h3>
+                </div>
+              </div>
+              <div class="card skill border text-dark">
+                <img src="images/skills/css-3.png" class="card-img-top" alt="HTML skill">
+                <div class="card-body bg-light">
+                  <h3 class="card-title">CSS</h3>
+                </div>
+              </div>
+              <div class="card skill border text-dark">
+                <img src="images/skills/java-script.png" class="card-img-top" alt="HTML skill">
+                <div class="card-body bg-light">
+                  <h3 class="card-title">JavaScript</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-group">
+              <div class="card skill border text-dark">
+                <img src="images/skills/java.png" class="card-img-top" alt="Java skill">
+                <div class="card-body bg-light">
+                  <h3 class="card-title">Java</h3>
+                </div>
+              </div>
+              <div class="card skill border text-dark">
+                <img src="images/skills/oop.png" class="card-img-top" alt="Opject Oriented skill">
+                <div class="card-body bg-light">
+                  <h3 class="card-title">Opject Oriented</h3>
+                </div>
+              </div>
+              <div class="card skill border text-dark">
+                <img src="images/skills/dsa.png" class="card-img-top" alt="Data Structure & algorithms skill">
+                <div class="card-body bg-light">
+                  <h3 class="card-title">Data Structure & algorithms</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-group">
+              <div class="card skill border text-dark">
+                <img src="images/skills/linux.png" class="card-img-top" alt="Linux skill">
+                <div class="card-body bg-light">
+                  <h3 class="card-title">Linux</h3>
+                </div>
+              </div>
+              <div class="card skill border text-dark">
+                <img src="images/skills/cloud-service.png" class="card-img-top" alt="AWS skill">
+                <div class="card-body bg-light">
+                  <h3 class="card-title">AWS</h3>
+                </div>
+              </div>
+              <div class="card skill border text-dark">
+                <img src="images/skills/github.png" class="card-img-top" alt="Git skill">
+                <div class="card-body bg-light">
+                  <h3 class="card-title">Git</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev h-50 m-auto" type="button" data-bs-target="#skills-cards" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon btn bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#skills-cards" data-bs-slide="next">
+          <span class="carousel-control-next-icon btn bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
     <hr>
     <div class="projs">
       <h2>My personal projects.</h2>
       <div class="proj-row">
-        <img class="s-img" src="images/simongame.png" alt="simongame">
+        <img class="s-img" src="images/projects/simongame.png" alt="simongame">
         <h3>Simon Game</h3>
         <p>
           It's a game, which the player should memorize a color sequance and keep entring it. Each level the game will add a color to the sequance and the player should enter previous sequance with the new color in addition. Feel free to
           <a href="#" data-bs-toggle="modal" data-bs-target="#simon">Try The Game.</a>
         </p>
         <div class="card-group">
-          <div class="card bg-primary text-center" style="max-width: 5rem;">
+          <div class="card bg-secondary text-center" style="max-width: 5rem;">
             <p class="text-white">HTML</p>
           </div>
           <div class="card bg-secondary text-center" style="max-width: 5rem;">
             <p class="text-white">CSS</p>
           </div>
-          <div class="card bg-success text-center" style="max-width: 6rem;">
+          <div class="card bg-secondary text-center" style="max-width: 6rem;">
             <p class="text-white">JavaScript</p>
           </div>
-          <div class="card bg-danger text-center" style="max-width: 5rem;">
+          <div class="card bg-secondary text-center" style="max-width: 5rem;">
             <p class="text-white">JQuery</p>
           </div>
         </div>
       </div>
       <div class="proj-row">
-        <img class="d-img" src="images/drumkit.png" alt="Drum Kit">
+        <img class="d-img" src="images/projects/drumkit.png" alt="Drum Kit">
         <h3>Drum Kit</h3>
         <p>
           Drum Kit is a website, which allow the user to play different sounds of drum, it has different sounds, such as tom sounds, snare sound, also crash sound and kick sound. Feel free to
           <a href="#" data-bs-toggle="modal" data-bs-target="#drumkit">tom tom kick.</a>
         </p>
         <div class="card-group">
-          <div class="card bg-primary text-center" style="max-width: 5rem;">
+          <div class="card bg-secondary text-center" style="max-width: 5rem;">
             <p class="text-white">HTML</p>
           </div>
           <div class="card bg-secondary text-center" style="max-width: 5rem;">
             <p class="text-white">CSS</p>
           </div>
-          <div class="card bg-success text-center" style="max-width: 6rem;">
+          <div class="card bg-secondary text-center" style="max-width: 6rem;">
             <p class="text-white">JavaScript</p>
           </div>
         </div>
       </div>
       <div class="proj-row">
-        <img class="s-img" src="images/catchupp.png" alt="Catchupp">
+        <img class="s-img" src="images/projects/catchupp.png" alt="Catchupp">
         <h3>Catchupp</h3>
         <p>
           Catchupp was a team project, which aimed to help the socity through ride-sharing idea. the idea was to design an app, that help people who is comfortable with sharing rides to reach each other. Feel free to
           <a href="#" data-bs-toggle="modal" data-bs-target="#catchupp">Test The Prototype.</a>
         </p>
         <div class="card-group">
-          <div class="card bg-primary text-center" style="max-width: 5rem;">
+          <div class="card bg-secondary text-center" style="max-width: 5rem;">
             <p class="text-white">UX/UI</p>
           </div>
         </div>
@@ -143,7 +225,7 @@
     <hr>
     <div class="contact-me">
       <h2>chech my resume</h2>
-      <a class="btn" target="_blank" href="document\Laith Shams Ali's Resume.pdf">Resume</a>
+      <a class="btn button" target="_blank" href="document\Laith Shams Ali's Resume.pdf">Resume</a>
     </div>
   </div>
 
