@@ -166,10 +166,18 @@ hr{
 
 .card:hover {
   border: solid #337FED 1px;
-  background-color: #08AEEA;
-  background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+  background: #08AEEA;
+  background-image: -webkit-linear-gradient(top, #08AEEA, #2AF598);
+  background-image: -moz-linear-gradient(top, #08AEEA, #2AF598);
+  background-image: -ms-linear-gradient(top, #08AEEA, #2AF598);
+  background-image: -o-linear-gradient(top, #08AEEA, #2AF598);
+  background-image: -webkit-gradient(to bottom, #08AEEA, #2AF598);
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
   text-decoration: none;
+}
+
+.navbar.scrolled {
+  transition: background-color 300ms linear;
 }
